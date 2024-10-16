@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Curriculum Vitae de José Manuel Martínez" />
+  <title>CV - Jose M. Martínez</title>
+  <link rel="icon" href="/img/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="profile-picture">
+        <img
+          src="https://img.freepik.com/fotos-premium/gato-araffe-tomando-selfie-telefono-celular-frente-paisaje-urbano-generativo-ai_1035771-1812.jpg?size=626&ext=jpg"
+          alt="Foto de Perfil de Jose Martínez" />
+      </div>
+      <div class="header-info">
+        <h1>Jose M. Martínez</h1>
+        <p>Desarrollador Full Stack</p>
+      </div>
+      <div class="theme-toggle">
+        <button id="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <section class="profile">
+    <div class="container">
+      <h2>Perfil</h2>
+      <p>
+        Soy un desarrollador full stack especializado en aplicaciones web. Me encanta construir sitios y aplicaciones
+        que sean intuitivos y efectivos, tanto en lo que el usuario ve como en lo que hay detrás. Siempre busco la mejor
+        manera de que todo fluya sin inconvenientes.
+      </p>
+    </div>
+  </section>
+  <section class="experience">
+    <div class="container">
+      <h2>Experiencia</h2>
+
+      <div class="job">
+        <img src="img/travelup.jpeg" alt="Logotipo de TravelUp Group PLC" />
+        <div>
+          <h3>Desarrollador Web</h3>
+          <strong>TravelUp Group PLC</strong>
+          <p>Enero 2019 - Hoy</p>
+          <p id="travelup-duration"></p>
+        </div>
+        <p>
+          Desarrollador full-stack, encargado de crear aplicaciones internas y
+          colaborar en el diseño y desarrollo de la página web comercial.
+        </p>
+      </div>
+
+      <div class="job">
+        <img src="img/innowa.jpeg" alt="Logotipo de Innowa Society" />
+        <div>
+          <h3>Técnico de Sistemas</h3>
+          <strong>Innowa Society</strong>
+          <p>Julio 2017 - Enero 2019 </p>
+          <p> 1 año 7 meses</p>
+        </div>
+        <p>
+          Mantenimiento de equipos, servidores y software en oficinas y
+          farmacias, soporte técnico y soluciones a problemas de software.
+        </p>
+      </div>
+
+      <div class="job">
+        <img src="./img/prosystem.jpeg" alt="Logotipo de Prosystem" />
+        <div>
+          <h3>Técnico de Sistemas</h3>
+          <strong>Consultoría de Proyectos y Aplicaciones SL</strong>
+          <p>Marzo 2015 - Julio 2017 </p>
+          <p>2 años 5 meses</p>
+        </div>
+        <p>
+          Mantenimiento de equipos, servidores y software en oficinas y
+          farmacias, soporte técnico y soluciones a problemas de software.
+        </p>
+      </div>
+
+      <div class="job">
+        <img src="./img/mediamarkt.jpeg" alt="Logotipo de Media Markt" />
+        <div>
+          <h3>Servicio Técnico</h3>
+          <strong>Media Markt</strong>
+          <p>Septiembre 2013 - Abril 2014</p>
+          <p> 8 meses</p>
+        </div>
+        <p>
+          En el departamento post-venta, realizando reparaciones y
+          devoluciones de productos, con atención directa al cliente.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills">
+    <div class="container">
+      <h2>Habilidades Técnicas</h2>
+      <ul>
+        <li>
+          <div class="skill-item">
+            <div class="skill-description">
+              <strong>HTML:</strong>
+              <span>Semántico y accesible</span>
+            </div>
+            <span class="stars" data-level="4"></span>
+          </div>
+        </li>
+        <li>
+          <div class="skill-item">
+            <div class="skill-description">
+              <strong>CSS & SASS:</strong>
+              <span>Diseño responsivo, animaciones CSS</span>
+            </div>
+            <span class="stars" data-level="4"></span>
+          </div>
+        </li>
+        <li>
+          <div class="skill-item">
+            <div class="skill-description">
+              <strong>JavaScript (Vanilla):</strong>
+              <span>ES6+, asincronía, manipulación del DOM</span>
+            </div>
+            <span class="stars" data-level="4"></span>
+          </div>
+        </li>
+        <li>
+          <div class="skill-item">
+            <div class="skill-description">
+              <strong>jQuery:</strong>
+              <span>Simplificación del DOM</span>
+            </div>
+            <span class="stars" data-level="4"></span>
+          </div>
+        </li>
+        <li>
+          <div class="skill-item">
+            <div class="skill-description">
+              <strong>React JS:</strong>
+              <span>Componentes funcionales, hooks, Next.js</span>
+            </div>
+            <span class="stars" data-level="4"></span>
+          </div>
+        </li>
+        <li>
+          <div class="skill-item">
+            <div class="skill-description">
+              <strong>Vue JS:</strong>
+              <span>Vue CLI, composición API</span>
+            </div>
+            <span class="stars" data-level="3"></span>
+          </div>
+        </li>
+        <li>
+          <div class="skill-item">
+            <div class="skill-description">
+              <strong>Angular JS:</strong>
+              <span>Directivas, manejo de estados</span>
+            </div>
+            <span class="stars" data-level="3"></span>
+          </div>
+        </li>
+        <li>
+          <div class="skill-item">
+            <div class="skill-description">
+              <strong>Vite JS:</strong>
+              <span>Herramienta de desarrollo rápida</span>
+            </div>
+            <span class="stars" data-level="4"></span>
+          </div>
+        </li>
+        <li>
+          <div class="skill-item">
+            <div class="skill-description">
+              <strong>Next.js:</strong>
+              <span>SSR, SSG, optimización del rendimiento</span>
+            </div>
+            <span class="stars" data-level="4"></span>
+          </div>
+        </li>
+        <li>
+          <div class="skill-item">
+            <div class="skill-description">
+              <strong>Node.js:</strong>
+              <span>Desarrollo backend, APIs REST, Express</span>
+            </div>
+            <span class="stars" data-level="3"></span>
+          </div>
+        </li>
+        <li>
+          <div class="skill-item">
+            <div class="skill-description">
+              <strong>.NET C#:</strong>
+              <span>Desarrollo backend, APIs, MVC, Entity Framework</span>
+            </div>
+            <span class="stars" data-level="3"></span>
+          </div>
+        </li>
+        <li>
+          <div class="skill-item">
+            <div class="skill-description">
+              <strong>SQL:</strong>
+              <span>Consultas, diseño de bases de datos, optimización de
+                consultas</span>
+            </div>
+            <span class="stars" data-level="3"></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="best-practices">
+    <div class="container">
+      <h2>Buenas Prácticas</h2>
+      <ul>
+        <li>Código limpio y legible (Clean Code)</li>
+        <li>Modularización y reutilización de componentes</li>
+        <li>Uso de controles de versiones (Git, Git FLow)</li>
+        <li>Testing y validación continua</li>
+        <li>Optimización de rendimiento (lazy loading, código asíncrono)</li>
+        <li>Accesibilidad web (WCAG)</li>
+        <li>Responsive design</li>
+        <li>Docker</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <a href="mailto:jmmartinez.social@gmail.com">jmmartinez.desarollo@outlook.com</a>
+
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/josemartinez91/" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/jmmartinezdesarrollo" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

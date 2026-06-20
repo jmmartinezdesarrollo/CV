@@ -231,6 +231,45 @@ footer {
 
 
 
+.jobs-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.job-project {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--background-primary);
+}
+
+.job-project-header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.job-project-header strong {
+  font-size: 1.1em;
+}
+
+.job-project-link {
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.job-project-link:hover {
+  text-decoration: underline;
+}
+
+.job-project-description {
+  text-align: left;
+  margin: 0;
+  font-size: 0.95em;
+}
+
 @media (min-width: 480px) {
   .container {
     padding: 30px;
@@ -281,6 +320,12 @@ footer {
 
 
 @media (min-width: 768px) {
+  .job-project-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   h2 {
     border-bottom: none;
   }

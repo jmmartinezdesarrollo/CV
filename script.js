@@ -65,7 +65,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const travelupStartDate = '2019-01-01';
     const travelupExperience = calculateExperience(travelupStartDate);
-    const durationText = `${travelupExperience.years} años y ${travelupExperience.months} mes(s)`;
+    const monthsText = travelupExperience.months === 1 ? '1 mes' : `${travelupExperience.months} meses`;
+    const durationText = `${travelupExperience.years} años y ${monthsText}`;
     document.getElementById('travelup-duration').innerText = durationText;
 
 
